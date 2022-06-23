@@ -9,44 +9,42 @@ let result;
 switch (operator) {
   case "+":
     if (isNaN(num1) || isNaN(num2)) {
-      console.log("Only digits are allowed");
+      alert("Only digits are allowed");
       break;
     }
     result = num1 + num2;
-    console.log("The addition of " + num1 + " and " + num2 + " is " + result);
+    alert("The addition of " + num1 + " and " + num2 + " is " + result);
     break;
 
   case "-":
     if (isNaN(num1) || isNaN(num2)) {
-      console.log("Only digits are allowed");
+      alert("Only digits are allowed");
       break;
     }
     result = num1 - num2;
-    console.log(
-      "The substraction of " + num2 + " from " + num1 + " is " + result
-    );
+    alert("The substraction of " + num2 + " from " + num1 + " is " + result);
     break;
 
   case "/":
     if (isNaN(num1) || isNaN(num2)) {
-      console.log("Only digits are allowed");
+      alert("Only digits are allowed");
       break;
     }
     result = num1 / num2;
-    console.log("The division of " + num1 + " by " + num2 + " is " + result);
+    alert("The division of " + num1 + " by " + num2 + " is " + result);
     break;
 
   case "*":
     if (isNaN(num1) || isNaN(num2)) {
-      console.log("Only digits are allowed");
+      alert("Only digits are allowed");
       break;
     }
     result = num1 * num2;
-    console.log("The product of " + num1 + " and " + num2 + " is " + result);
+    alert("The product of " + num1 + " and " + num2 + " is " + result);
     break;
 
   default:
-    console.log(
+    alert(
       "Make sure you entered a valid number with the right operator command. Thanks 🙏"
     );
 }
